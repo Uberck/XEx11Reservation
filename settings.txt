@@ -1,0 +1,4 @@
+Start from Global.asax
+http://localhost:58505/Request
+http://localhost:58505/Confirm
+http://localhost:58505/Rooms
