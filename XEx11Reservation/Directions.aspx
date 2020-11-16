@@ -4,7 +4,7 @@
     <h1>Directions</h1>
     <div class="row">
         <div class="col-sm-offset-1">
-            <img src="Images/UnderConstruction.png" alt="" />
+            <img src="/Images/UnderConstruction.png" alt="" />
             <p>Under construction!</p>
         </div>
     </div>

@@ -6,10 +6,10 @@
 <head runat="server">
     <title>Chapter 11: Reservations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="Scripts/jquery-2.2.4.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/site.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-2.2.4.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -30,15 +30,15 @@
                 </div>
                 <div class="collapse navbar-collapse" id="mainMenu">
                     <ul class="nav navbar-nav">
-                        <li><a href="Rooms">Rooms</a></li>
-                        <li><a href="Request">Reservations</a></li>
-                        <li><a href="ContactUs">Contact Us</a></li>
+                        <li><a href="/Rooms">Rooms</a></li>
+                        <li><a href="/Request">Reservations</a></li>
+                        <li><a href="/ContactUs">Contact Us</a></li>
                         <li runat="server" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 About Us&nbsp;<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="History">History</a></li>
-                                <li><a href="Directions">Directions</a></li>
+                                <li><a href="/AboutUs/History">History</a></li>
+                                <li><a href="/AboutUs/Directions">Directions</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -47,7 +47,7 @@
         </nav>
 
         <header class="jumbotron">
-            <img src="Images/logo.png" alt="Royal Inns and Suites" class="img-responsive" />
+            <img src="../Images/logo.png" alt="Royal Inns and Suites" class="img-responsive" /> <!-- make relative to root directory -->
         </header>
 
         <main>
